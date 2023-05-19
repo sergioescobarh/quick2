@@ -6,7 +6,7 @@
     background-color: black;
     color: white;
 }
-
+// home------------------------------------------------
 .homeMain {
     height: 100vh;
     width: 100vw;
@@ -30,7 +30,58 @@
             padding: 5px;
             padding-left: 20px;
             padding-right: 20px;
-            border-radius: 15%;
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            margin: 5px;
+            padding: 5px;
+            font-size: 1.2em;
         }
+    }
+}
+// home------------------------------------------------
+
+//Register---------------------------------------------
+.registerForm{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    input {
+        background-color: aliceblue;
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        margin: 5px;
+        padding: 5px;
+        font-size: 1.2em;
+    }
+    button {
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+        border: solid 1px white;
+        margin: 5px;
+        padding: 5px;
+        font-size: 1.2em;
+        background-color: transparent;
+    }
+}
+//Register---------------------------------------------
+
+@media (min-width:740px) {
+    .homeMain{
+        flex-direction: row;
+        background-image: url(https://cdn.leonardo.ai/users/ac0a2dde-445c-4723-af7c-3d669913ecb6/generations/36a9c4d7-2ed6-4279-a85b-17edab0daad5/Default_An_ultra_realistic_astronaut_floating_on_the_moonwith_0.jpg)
+    }
+}
+
+@media (min-width: 1024px) {
+    .homeMain{
+        background-image:url(https://cdn.leonardo.ai/users/ac0a2dde-445c-4723-af7c-3d669913ecb6/generations/53076a23-282b-4a21-b15a-373eb8275edc/Default_An_ultra_realistic_isaac_newton_watching_the_sky_full_1.jpg); ;
     }
 }
