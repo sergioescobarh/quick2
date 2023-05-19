@@ -1,31 +1,36 @@
 
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     background-color: black;
     color: white;
 }
 
 .homeMain {
-    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://cdn.leonardo.ai/users/42f9429d-850a-4280-aacc-6f7d1643c99b/generations/c21b0ddb-d91e-43ee-b6b2-9e61e631e6e4/variations/Default_A_closeup_of_a_Vietnamese_old_mans_face_illuminated_by_0_c21b0ddb-d91e-43ee-b6b2-9e61e631e6e4_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    .buttonContainer{
-        width: 50%;
-        margin: 10px ;
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        border: solid 5px red;
-        .buttonBorder{
-            border-radius: 50;
-            color:white;
-            border: solid 5px red;
-            height: 100%;
-        }
+    justify-content: center;
+    .logo {
+        width: 150px;
+        border-radius: 50%;
+    }
+    .linkButton{
+        margin: 20px;
+        background-color: transparent;
         button {
-        
+            font-size: 2em;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 15%;
+        }
     }
-    }
-    
 }
