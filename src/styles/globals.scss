@@ -73,6 +73,26 @@
 }
 //Register---------------------------------------------
 
+//shores-----------------------------------------------
+.shoresMain {
+    height: 100vh;
+    width: 100vw;
+    .shores1 {
+        width: 100vw;
+        height: 80vh;
+        border: aqua solid 5px;
+        .shoresHeader {
+            height: 25%;
+            border: red solid 5px;
+        }
+        .shoresContainer {
+            height: 60%;
+            border: 5px solid purple;
+        }
+    }
+}
+//shores-----------------------------------------------
+
 @media (min-width:740px) {
     .homeMain{
         flex-direction: row;
