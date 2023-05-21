@@ -2,11 +2,14 @@ import SearchVar from '@/atoms/SearchVar'
 import ShoresContainer from '@/molecules/ShoresContainer'
 import React from 'react'
 import { useState } from 'react'
+ 
+import {Shore} from '../types'
 type Props = {}
 
 export default function Shores({}: Props) {
 
   const [search, setSearch]=useState<string>("");
+  const [shores,setShores] = useState<Shore[]>(temporalShores);
 
   return (
     <main className='shoresMain'>
